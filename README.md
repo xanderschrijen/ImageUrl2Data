@@ -25,3 +25,7 @@ YVVXVEFZVV ...
 Self-containment regained.
 
 Although the GitHub markdown viewer removes the inline data url, so it's of no use there. _sigh_.
+
+### Install
+
+Just clone the repo in your Sublime Text's `Packages` directory.
