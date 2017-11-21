@@ -2,7 +2,7 @@ import sublime
 import sublime_plugin
 import urllib.parse, urllib.request, base64
 
-IMG_TYPES = {".gif": "gif", ".png": "png", ".jpg": "jpeg", ".jpeg": "jpeg"}
+IMG_TYPES = {"gif": "gif", "png": "png", "jpg": "jpeg", "jpeg": "jpeg"}
 TEMPLATE = "data:image/{0};base64,{1}"
 
 class EncodeImgUrlCommand(sublime_plugin.TextCommand):
